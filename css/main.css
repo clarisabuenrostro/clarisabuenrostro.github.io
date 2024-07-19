@@ -1085,7 +1085,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 450px; /* Set a fixed width for the profile picture */
     height: auto; /* Maintain aspect ratio */
     flex-shrink: 0; /* Prevent the image from shrinking */
-    margin-right: -75px; /* Add some space between the image and the text */
+    margin-right: 75px; /* Add some space between the image and the text */
 }
 
 
@@ -1526,12 +1526,12 @@ header .logo a {
 	height: 9rem;
 	width: 9rem;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
+	margin: .9rem 0 0 -15rem;
 	float: left;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 0rem;
 }
 
 .about-content {
