@@ -1076,34 +1076,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	}
 }
 .intro-info {
-    text-align: center; /* Centers the content in the container */
-	#.profile-pic {
-		width: 200px; /* Set the desired width */
-		height: 200px; /* Set the desired height */
-		border-radius: 50%; /* Optional: for a circular image */
-		object-fit: cover; /* Optional: to maintain aspect ratio */
-	}
-	
-	.intro-info {
-		text-align: center; /* Center the text */
-		margin: 0 auto; /* Center the container */
-		width: 80%; /* Adjust the width as needed */
-	}
-	
-	.intro-info .lead {
-		margin-top: 20px; /* Increase the margin-top as needed */
-		margin-left: 10%; /* Add left margin */
-		margin-right: 10%; /* Add right margin */
-	}
-	
+    display: flex; /* Use flexbox to align the profile picture and text side by side */
+    align-items: center; /* Center align items vertically */
+    width: 150%; /* Make the container take up the full width */
 }
 
-.profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Optional: for a circular image */
-    object-fit: cover;  /* Optional: to maintain aspect ratio */
+.intro-info .profile-pic {
+    width: 450px; /* Set a fixed width for the profile picture */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-right: -75px; /* Add some space between the image and the text */
 }
+
+
+
 
 .lead {
     font-size: 1.2em; /* Adjust font size */
