@@ -1086,6 +1086,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: auto; /* Maintain aspect ratio */
     flex-shrink: 0; /* Prevent the image from shrinking */
     margin-right: 75px; /* Add some space between the image and the text */
+	border: 3px solid #000; /* Add a border (5px thick, black color) */
 }
 
 
@@ -1525,7 +1526,7 @@ header .logo a {
 .intro-info img {
 	height: 9rem;
 	width: 9rem;
-	border-radius: 50%;
+	border-radius: 0%;
 	margin: .9rem 0 0 -15rem;
 	float: left;
 }
