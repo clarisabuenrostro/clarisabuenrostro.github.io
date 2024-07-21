@@ -90,7 +90,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #FF0077;
+	color: #0aaadf;
 	outline: 0;
 }
 
@@ -301,7 +301,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #FF0077;
+	background: #0aaadf;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -309,7 +309,7 @@ ul.disc li::before {
 }
 dt {
 	margin: 0;
-	color: #FF0077;
+	color: #0aaadf;
 }
 dd {
 	margin: 0 0 0 2rem;
@@ -429,7 +429,7 @@ img.pull-left {
 	display: none;
 }
 .pace .pace-progress {
-	background: #FF0077;
+	background: #0aaadf;
 	position: fixed;
 	z-index: 900;
 	top: 0;
@@ -472,7 +472,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #FF0077;
+	border-left: 11px solid #0aaadf;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -594,8 +594,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #cc005f;
-	border-bottom: 1px solid #FF0077;
+	color: #008bcc;
+	border-bottom: 1px solid #0aaadf;
 }
 label, legend {
 	font-family: "poppins-bold", sans-serif;
@@ -736,8 +736,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #FF0077;
-	color: #FF0077;
+	border: 3px solid #0aaadf;
+	color: #0aaadf;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -925,7 +925,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #FF0077;
+	color: #0aaadf;
 }
 .stats-tabs li a em {
 	display: block;
@@ -1041,7 +1041,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #FF0077;
+	color: #0aaadf;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1116,7 +1116,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 120px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1130,18 +1130,18 @@ header .logo {
 	position: relative;
 }
 header .logo a {
-	display: block;
-	margin: 0;
-	padding: 0;
-	border: none;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 30px "poppins-medium", sans-serif; /* Adjust font size and family as needed */
+    text-shadow: none;
+    color: #d8d0d0; /* Adjust text color as needed */
+    width: 85px; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    background: none; /* Remove background image */
 }
+
 
 /**
  * menu toggle - (_layout.css)
@@ -1158,7 +1158,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #FF0077;
+	background-color: #0aaadf;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1216,7 +1216,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff0077;
+	background-color: #0aaadf;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1272,12 +1272,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #FF0077;
+	color: #0aaadf;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #FF0077;
+	color: #0aaadf;
 }
 
 /**
@@ -1404,7 +1404,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #0aaadf;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1649,7 +1649,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color: #0aaadf;
 }
 
 #resume .resume-timeline {
@@ -1885,6 +1885,77 @@ header .logo a {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
+}
+/* Portfolio Section */
+#portfolio {
+    background: #ffffff; /* White background */
+    color: #000000; /* Black text color */
+    padding: 60px 0;
+}
+
+#portfolio .section-intro h5 {
+    color: #000000; /* Black heading color */
+}
+
+#portfolio .portfolio-header h2 {
+    color: #000000; /* Black subheading color */
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-six {
+    flex: 1;
+    min-width: 45%; /* Ensures two columns layout even on smaller screens */
+}
+
+#portfolio .timeline-wrap {
+    border-left: 1px solid #000000; /* Black border */
+    padding-left: 20px;
+}
+
+#portfolio .timeline-block {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+#portfolio .timeline-block .timeline-ico {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    background: #000000; /* Black icon background */
+    color: #ffffff; /* White icon color */
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+#portfolio .timeline-block .timeline-header h3,
+#portfolio .timeline-block .timeline-header p,
+#portfolio .timeline-block .timeline-content h4,
+#portfolio .timeline-block .timeline-content p {
+    color: #000000; /* Black text color */
+}
+
+#portfolio .timeline-block .timeline-content h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#portfolio .timeline-block .timeline-content p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+#portfolio .timeline-block .timeline-header {
+    margin-bottom: 10px;
 }
 
 /**
@@ -2142,7 +2213,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #FF0077;
+	color: #0aaadf;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2164,7 +2235,7 @@ header .logo a {
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #FF0077;
+	color: #0aaadf;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2192,7 +2263,7 @@ header .logo a {
 	background: #FFFFFF;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #FF0077;
+	background: #0aaadf;
 }
 
 
@@ -2278,7 +2349,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #FF0077;
+	color: #0aaadf;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2331,7 +2402,7 @@ header .logo a {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #FF0077;
+	background: #0aaadf;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2340,7 +2411,7 @@ header .logo a {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #FF0077;
+	border-right: 5px solid #0aaadf;
 	content: "";
 }
 #contact input[type="text"],
@@ -2362,7 +2433,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #FF0077;
+	border-color: #0aaadf;
 	color: #FFFFFF;
 }
 #contact textarea {
@@ -2370,7 +2441,7 @@ header .logo a {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: #FF0077;
+	border-color: #0aaadf;
 	color: #FFFFFF;
 }
 #contact button.submitform {
@@ -2382,7 +2453,7 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #FF0077;
+	background: #0aaadf;
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
@@ -2397,10 +2468,10 @@ header .logo a {
 	width: 100%;
 }
 #message-warning {
-	color: #fa0003;
+	color: #0aaadf;
 }
 #message-success {
-	color: #FF0077;
+	color: #0aaadf;
 }
 #message-warning i, #message-success i {
 	margin-right: 10px;
@@ -2445,7 +2516,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #FF0077;
+	color: #0aaadf;
 }
 
 /**
@@ -2518,7 +2589,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #FF0077;
+	color: #0aaadf;
 }
 footer .row {
 	max-width: 900px;
@@ -2597,7 +2668,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: #0aaadf;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
